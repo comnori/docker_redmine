@@ -1,0 +1,1 @@
+docker build -t comnori/redmine:5-bullseye .
