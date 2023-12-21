@@ -1,0 +1,40 @@
+repo_name: comnori/docker_redmine
+report_id: a0c9e97d62a85eaeb6e158cb811b2d51
+version: 0.1
+repo_type: Public
+timestamp: '2023-12-21T15:57:09+00:00'
+requested_by: comnori
+provider: github
+branch: main
+detected_tools_count: 3
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: phpMyAdmin
+  description: A free software, for MySQL and MariaDB
+  website_url: https://www.phpmyadmin.net/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Performance Monitoring
+  image_url: https://img.stackshare.io/service/2102/3pl3dljQ_400x400.png
+  detection_source: redmine/docker-compose.yml
+  last_updated_by: comnori
+  last_updated_on: 2022-05-16 11:02:18.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
